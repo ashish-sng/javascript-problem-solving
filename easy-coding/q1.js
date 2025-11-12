@@ -1,3 +1,4 @@
+// Q1. Implement a function to check if two strings are anagrams
 function anagramCheck(str1, str2) {
   if (str1.length !== str2.length) {
     return false;
