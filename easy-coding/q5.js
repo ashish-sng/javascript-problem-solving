@@ -1,4 +1,4 @@
-// Find the first non-repeating character in a string.
+// Q5. Find the first non-repeating character in a string.
 // brute force
 function nonRepeatingCharacter(str) {
   const map = {};

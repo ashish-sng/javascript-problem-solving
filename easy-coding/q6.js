@@ -1,7 +1,7 @@
 // Store original implementation
 const nativeMap = Array.prototype.map;
 
-// Implement Array.prototype.map (polyfill)
+// Q6. Implement Array.prototype.map (polyfill)
 function map(arr, callback, thisArg) {
   console.log("Using custom polyfill map!");
 

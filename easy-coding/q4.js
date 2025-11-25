@@ -1,4 +1,4 @@
-// Check if a string is a palindrome; ignore non-alphanumerics
+// Q4. Check if a string is a palindrome; ignore non-alphanumerics
 function isPalindrome(str) {
   str = str.split("");
   str = str.filter((ch) => {

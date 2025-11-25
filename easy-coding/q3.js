@@ -1,4 +1,4 @@
-// Return indices of two numbers summing to target (Two Sum).
+// Q3. Return indices of two numbers summing to target (Two Sum).
 function twoSum(arr, target) {
   arr = arr.sort();
   let i = 0,

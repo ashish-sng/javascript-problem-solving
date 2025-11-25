@@ -1,4 +1,4 @@
-// Implement Array.prototype.filter (polyfill).
+// Q7. Implement Array.prototype.filter (polyfill).
 function filter(arr, callback, thisArg) {
   console.log("Using custom polyfill filter!");
 
