@@ -1,0 +1,31 @@
+Q1. Difference between == and === with examples.
+Ans. == is used for comparision of values. === is used for comparision and values of types.
+
+Q2. Explain var, let, const with temporal dead zone.
+Ans. var is function scoped, let and const are blocked scoped.
+Temporal Dead Zone is the time between the start of the scope and the initialization of a variable.
+
+Q3. What is hoisting? How does it affect functions and variables?
+Ans. Hoisting is the process of moving declarations to the top of their containing scope.
+
+Q4. Explain closures with a practical example.
+Ans. Closures are functions that have access to the variables in their lexical scope, even when the function is executed outside of that scope.
+Example: 
+function outer() {
+    let outerVar = 'I am from outer function';
+    function inner() {
+        console.log(outerVar);
+    }
+    return inner;
+}
+const myClosure = outer();
+myClosure();
+
+Q5. What is the event loop? microtasks vs macrotasks?
+Ans. The event loop is a mechanism that allows JavaScript to handle asynchronous operations.
+Microtasks are tasks that are executed in the background, such as promises and async/await.
+Macrotasks are tasks that are executed in the foreground, such as setTimeout and setInterval.
+Key difference between them: 
+    Microtasks are executed before macrotasks.
+
+Q6. Explain 'this' binding rules (default, implicit, explicit, new).
